@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 
     api.use([
         "meteor",
-        "ecmascript"
+        "ecmascript",
     ]);
 
     // WEAK DEPENDENCIES
@@ -21,9 +21,6 @@ Package.onUse(function(api) {
     api.use([
         'foo'
     ], {unordered:true});
-
-    api.mainModule('bar.js', 'server');
-
 
     //EXPORT VARIABLES
     api.export([]);

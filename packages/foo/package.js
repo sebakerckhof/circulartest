@@ -22,6 +22,8 @@ Package.onUse(function(api) {
         'bar'
     ], {unordered:true});
 
+    api.mainModule('foo.js', 'server');
+
     //EXPORT VARIABLES
     api.export([]);
 
